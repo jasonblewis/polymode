@@ -54,7 +54,7 @@ and a fenced-code auto innermode
 In both of the examples `:head-matcher` and `:tail-matcher` are regular
 expressions patterns used to search for heads and tails of inner code
 chunks. The `:mode-matcher` tells polymode how to retrieve the major mode from
-the head of the chunk. Each of the three marchers can be a regexp, a cons of the
+the head of the chunk. Each of the three matchers can be a regexp, a cons of the
 form (REGEXP . SUBMATCH) or a function which should return the name of the mode.
 
 `:head-mode` and `:tail-mode` specify the major mode which should be used for
